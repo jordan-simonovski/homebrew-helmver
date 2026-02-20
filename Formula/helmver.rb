@@ -1,26 +1,26 @@
 class Helmver < Formula
   desc "Helm chart versioning and changelog management"
   homepage "https://github.com/jordan-simonovski/helmver"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jordan-simonovski/helmver/releases/download/v0.3.0/helmver-darwin-arm64"
-      sha256 "08167575f613cc018302f1bb6df255397f0836e5e5a6f731e7b29eddc92dc787"
+      url "https://github.com/jordan-simonovski/helmver/releases/download/v0.4.0/helmver-darwin-arm64"
+      sha256 "d96bc6cd02fbc41e6b83eb9dc8e17589c421c9b689e73e779eccf47a8bdd08fd"
     else
-      url "https://github.com/jordan-simonovski/helmver/releases/download/v0.3.0/helmver-darwin-amd64"
-      sha256 "b4bdb156cbb06f2cd142380e67f82f98eae4e8aa318b9250b9d1430a00a1c9fd"
+      url "https://github.com/jordan-simonovski/helmver/releases/download/v0.4.0/helmver-darwin-amd64"
+      sha256 "162caaac99e3686ecc8730a21ef493021cc95d9926391a94cf9b4b967b24fdf2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/jordan-simonovski/helmver/releases/download/v0.3.0/helmver-linux-arm64"
-      sha256 "b903fe551af0581e304e8ca3fc7bcace6d510d41809d57376aff829a61ac8d70"
+      url "https://github.com/jordan-simonovski/helmver/releases/download/v0.4.0/helmver-linux-arm64"
+      sha256 "88b56d982bf23a3452216cf1eff1efa939eae816cb9ba5143cd5c16a94138e64"
     else
-      url "https://github.com/jordan-simonovski/helmver/releases/download/v0.3.0/helmver-linux-amd64"
-      sha256 "3b0c33783babcaca943cb5e874f8a29b12cf2c5704dfd89ecf008041af0412de"
+      url "https://github.com/jordan-simonovski/helmver/releases/download/v0.4.0/helmver-linux-amd64"
+      sha256 "67a3b1160f2b2427acb0f5ae8311584d709a5b6ba830207be3e83c50bf0ed38d"
     end
   end
 
